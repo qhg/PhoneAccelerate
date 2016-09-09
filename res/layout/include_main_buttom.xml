@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/main_bottom_margin"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/txt_bottom_accelerate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/guide_margin"
+            android:padding="@dimen/main_buttom_padding"
+            android:layout_weight="1"
+            android:background="@drawable/bcg_selector"
+            android:drawableTop="@drawable/icon_rocket"
+            android:gravity="center_horizontal"
+            android:text="@string/buttom_accelerate"
+            android:textColor="@color/black"
+             />
+
+        <TextView
+            android:id="@+id/txt_bottom_softmanage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/guide_margin"
+            android:padding="@dimen/main_buttom_padding"
+            android:layout_weight="1"
+            android:background="@drawable/bcg_selector"
+            android:drawableTop="@drawable/icon_softmgr"
+            android:gravity="center_horizontal"
+            android:text="@string/buttom_manageSoft"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/txt_bottom_check"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/guide_margin"
+            android:padding="@dimen/main_buttom_padding"
+            android:layout_weight="1"
+            android:background="@drawable/bcg_selector"
+            android:drawableTop="@drawable/icon_phonemgr"
+            android:gravity="center_horizontal"
+            android:text="@string/buttom_check"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/txt_bottom_tel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/guide_margin"
+            android:padding="@dimen/main_buttom_padding"
+            android:layout_weight="1"
+            android:background="@drawable/bcg_selector"
+            android:drawableTop="@drawable/icon_telmgr"
+            android:gravity="center_horizontal"
+            android:text="@string/buttom_tel"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/txt_bottom_filemanage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/guide_margin"
+            android:padding="@dimen/main_buttom_padding"
+            android:layout_weight="1"
+            android:background="@drawable/bcg_selector"
+            android:drawableTop="@drawable/icon_filemgr"
+            android:gravity="center_horizontal"
+            android:text="@string/buttom_manageFile"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/txt_bottom_clear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/guide_margin"
+            android:padding="@dimen/main_buttom_padding"
+            android:layout_weight="1"
+            android:background="@drawable/bcg_selector"
+            android:drawableTop="@drawable/icon_sdclean"
+            android:gravity="center_horizontal"
+            android:text="@string/buttom_clear"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</LinearLayout>

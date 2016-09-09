@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">assistant</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_jump">进入闪屏>></string>
+    <!-- activity_main -->
+    <string name="top_name">安卓手机助手</string>
+    <string name="buttom_accelerate">手机加速</string>
+    <string name="buttom_accelerating">加速中>>></string>
+    <string name="buttom_manageSoft">软件管理</string>
+    <string name="buttom_check">手机检测</string>
+    <string name="buttom_tel">通讯大全</string>
+    <string name="buttom_manageFile">文件管理</string>
+    <string name="buttom_clear">垃圾清理</string>
+    <string name="mid_percent">%</string>
+    <string name="mid_txt_percent">25</string>
+	<!-- activity_acclerate -->
+	<string name="set">设置</string>
+	<string name="clear_all">一键清理</string>
+	<string name="user_process">只显示用户进程</string>
+	<string name="system_process">只显示系统进程</string>
+	<string name="processinfo_memory">内存：%1$S</string>
+	<string name="system">系统进程</string>
+	<string name="user">用户进程</string>
+	<!-- dialog_my -->
+	<string name="dialog_title">提示！</string>
+	<string name="dialog_message">你确认要删除吗?</string>
+	<string name="dialog_yes">确认</string>
+	<string name="dialog_no">取消</string>
+	<string name="dialog_progress_title">客官稍后</string>
+	<string name="dialog_progress_message">上菜中>></string>
+	<!-- activity_soft -->
+	<string name="txt_soft_internal_space">手机内置空间</string>
+	<string name="txt_soft_storage_space">外置存储空间</string>
+	<string name="txt_soft_all">所有软件</string>
+	<string name="txt_soft_system">系统软件</string>
+	<string name="txt_soft_user">用户软件</string>
+	<string name="txt_soft_clear">卸载所选软件</string>
+	<!-- activity_check -->
+	<string name="txt_check_title">手机检测</string>
+	<!-- activity_tel -->
+	<string name="txt_tel_title">通讯大全</string>
+	<string name="txt_tel_contacts">通话记录</string>
+	<string name="txt_tel_addrlist">通讯录 </string>
+	<!-- activity_file -->
+	<string name="txt_file_title">文件管理</string>
+	<string name="txt_file_find">已发现</string>
+	<string name="txt_file_clear">删除所选文件</string>
+</resources>

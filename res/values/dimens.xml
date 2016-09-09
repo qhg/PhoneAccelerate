@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="main_5dp">5dp</dimen>
+    <dimen name="main_10dp">10dp</dimen>
+    <dimen name="main_12dp">12dp</dimen>
+    <dimen name="main_15dp">15dp</dimen>
+    <dimen name="main_20dp">20dp</dimen>
+    <dimen name="main_22dp">22dp</dimen>
+    <dimen name="main_30dp">30dp</dimen>
+    <dimen name="main_35dp">35dp</dimen>
+    <dimen name="main_8dp">8dp</dimen>
+    <dimen name="main_45dp">45dp</dimen>
+    <dimen name="main_70dp">70dp</dimen>
+    <dimen name="main_100dp">100dp</dimen>
+    <!-- activity_guide -->
+    <dimen name="txt_size_jump">20sp</dimen>
+    <dimen name="guide_margin">10dp</dimen>
+    <!-- activity_main -->
+    <dimen name="main_bottom_margin">20dp</dimen>
+    <dimen name="main_top_txtsize">20sp</dimen>
+    <dimen name="main_buttom_padding">8dp</dimen>
+    <dimen name="main_mid_view">255dp</dimen>
+    <dimen name="main_mid_circle">250dp</dimen>
+    <dimen name="main_mid_padding">25dp</dimen>
+    <dimen name="main_15sp">15sp</dimen>
+    <dimen name="main_18sp">18sp</dimen>
+    <dimen name="main_20sp">20sp</dimen>
+    <dimen name="main_22sp">22sp</dimen>
+    <dimen name="main_25sp">25sp</dimen>
+    <dimen name="main_60sp">60sp</dimen>
+    <dimen name="main_50sp">50sp</dimen>
+    <dimen name="main_40sp">40sp</dimen>
+
+</resources>

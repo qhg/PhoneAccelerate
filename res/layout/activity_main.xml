@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_entry_item_normal"
+    android:orientation="vertical" >
+
+    <include        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_35dp"
+        layout="@layout/include_main_top" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        layout="@layout/include_main_mid" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        layout="@layout/include_main_buttom" />
+
+</LinearLayout>

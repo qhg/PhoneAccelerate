@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <edu.feicui.aide.view.CircleView
+        android:id="@+id/circle_mid"
+        android:layout_width="@dimen/main_mid_view"
+        android:layout_height="@dimen/main_mid_view"
+        android:layout_centerInParent="true" />
+
+    <ImageButton
+        android:id="@+id/igb_mid"
+        android:layout_width="@dimen/main_mid_circle"
+        android:layout_height="@dimen/main_mid_circle"
+        android:layout_centerInParent="true"
+        android:background="@drawable/midbg_selector" />
+
+    <TextView
+        android:id="@+id/txt_mid_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingBottom="@dimen/main_mid_padding"
+        android:text="@string/mid_txt_percent"
+        android:textColor="@color/black"
+        android:textSize="@dimen/main_60sp" />
+
+    <TextView
+        android:id="@+id/txt_mid_accelerate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_mid_percent"
+        android:layout_centerHorizontal="true"
+        android:background="@color/red"
+        android:text="@string/buttom_accelerate"
+        android:textColor="@color/white"
+        android:textSize="@dimen/main_22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/txt_mid_percent"
+        android:layout_toRightOf="@id/txt_mid_accelerate"
+        android:text="@string/mid_percent"
+        android:textColor="@color/black"
+        android:textSize="@dimen/main_15sp" />
+
+</RelativeLayout>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_entry_item_normal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_35dp"
+        android:layout_marginLeft="@dimen/main_5dp" >
+
+        <ImageView
+            android:id="@+id/img_check_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_homeasup_default" />
+
+        <TextView
+            android:id="@+id/txt_check_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/txt_check_title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main_22sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/main_20dp"
+        android:layout_weight="2.5" >
+
+        <ImageView
+            android:id="@+id/img_check_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/battery_list" />
+
+        <TextView
+            android:id="@+id/txt_check_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/main_30dp"
+            android:layout_toRightOf="@id/img_check_level"
+            android:text="11"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/main_20sp" />
+
+        <TextView
+            android:id="@+id/txt_check_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/main_20dp"
+            android:text="11"
+            android:textColor="@color/red"
+            android:textSize="@dimen/main_20sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/main_15dp"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/img_check_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/green"
+            android:src="@drawable/setting_info_icon_version" />
+
+        <TextView
+            android:id="@+id/txt_check_brand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/img_check_icon"
+            android:layout_marginLeft="@dimen/main_15dp"
+            android:layout_toRightOf="@id/img_check_icon"
+            android:text="dd"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main_18sp" />
+
+        <TextView
+            android:id="@+id/txt_check_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/img_check_icon"
+            android:layout_marginLeft="@dimen/main_15dp"
+            android:layout_toRightOf="@id/img_check_icon"
+            android:text="dd"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main_18sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/main_15dp"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/img_check_ram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/red"
+            android:src="@drawable/setting_info_icon_space" />
+
+        <TextView
+            android:id="@+id/txt_check_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/img_check_ram"
+            android:layout_marginLeft="@dimen/main_15dp"
+            android:layout_toRightOf="@id/img_check_ram"
+            android:text="dd"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main_18sp" />
+
+        <TextView
+            android:id="@+id/txt_check_avail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/img_check_ram"
+            android:layout_marginLeft="@dimen/main_15dp"
+            android:layout_toRightOf="@id/img_check_ram"
+            android:text="dd"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main_18sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/main_15dp"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/img_check_cpu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/yellow"
+            android:src="@drawable/setting_info_icon_cpu" />
+
+        <TextView
+            android:id="@+id/txt_check_cpuname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/img_check_cpu"
+            android:layout_marginLeft="@dimen/main_15dp"
+            android:layout_toRightOf="@id/img_check_cpu"
+            android:text="dd"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main_18sp" />
+
+        <TextView
+            android:id="@+id/txt_check_cpunum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/img_check_cpu"
+            android:layout_marginLeft="@dimen/main_15dp"
+            android:layout_toRightOf="@id/img_check_cpu"
+            android:text="dd"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main_18sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/main_15dp"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/img_check_metrics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp"
+            android:background="@color/green"
+            android:src="@drawable/setting_info_icon_camera" />
+
+        <TextView
+            android:id="@+id/txt_check_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/img_check_metrics"
+            android:layout_marginLeft="@dimen/main_15dp"
+            android:layout_toRightOf="@id/img_check_metrics"
+            android:text="dd"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main_18sp" />
+
+        <TextView
+            android:id="@+id/txt_check_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/img_check_metrics"
+            android:layout_marginLeft="@dimen/main_15dp"
+            android:layout_toRightOf="@id/img_check_metrics"
+            android:text="dd"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main_18sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/main_15dp"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/img_check_baseband"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/red"
+            android:src="@drawable/setting_info_icon_root" />
+
+        <TextView
+            android:id="@+id/txt_check_baseband"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/img_check_baseband"
+            android:layout_marginLeft="@dimen/main_15dp"
+            android:layout_toRightOf="@id/img_check_baseband"
+            android:text="dd"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main_18sp" />
+
+        <TextView
+            android:id="@+id/txt_check_root"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/img_check_baseband"
+            android:layout_marginLeft="@dimen/main_15dp"
+            android:layout_toRightOf="@id/img_check_baseband"
+            android:text="dd"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main_18sp" />
+    </RelativeLayout>
+
+</LinearLayout>

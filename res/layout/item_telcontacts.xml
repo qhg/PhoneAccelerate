@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_entry_item_normal"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/img_telcontacts_type"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="@dimen/main_5dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/main_5dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_telcontacts_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/main_5dp"
+            android:text="11"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main_18sp" />
+
+        <TextView
+            android:id="@+id/txt_telcontacts_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/main_10dp"
+            android:text="11"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main_15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_telcontacts_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/main_5dp"
+            android:text="11"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/txt_telcontacts_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/main_10dp"
+            android:text="11"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</LinearLayout>

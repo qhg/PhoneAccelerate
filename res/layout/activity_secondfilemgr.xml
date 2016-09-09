@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_entry_item_normal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_35dp" >
+
+        <ImageView
+            android:id="@+id/img_second_file_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/bcg_selector"
+            android:src="@drawable/btn_homeasup_default" />
+
+        <TextView
+            android:id="@+id/txt_second_file_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/main_20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/txt_second_file_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/main_5dp"
+            android:text="文件数量："
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/txt_second_file_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/txt_second_file_left"
+            android:text="11"
+            android:textColor="#ffffb90f"
+            android:textSize="@dimen/main_22sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txt_second_file_space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/main_5dp"
+            android:layout_toRightOf="@id/txt_second_file_num"
+            android:text="占用空间："
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/txt_second_file_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/txt_second_file_space"
+            android:text="11"
+            android:textColor="#ffffb90f"
+            android:textSize="@dimen/main_22sp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lst_second_file"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="@dimen/main_5dp" >
+
+        <TextView
+            android:id="@+id/txt_second_file_clear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/main_5dp"
+            android:background="@drawable/second_soft_selector"
+            android:gravity="center"
+            android:text="@string/txt_file_clear"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>
